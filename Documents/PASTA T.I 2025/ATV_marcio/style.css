@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body{
     min-height: 100svh;
-    background-color: rgb(54, 52, 52);
+    background-color:  rgb(37, 0, 0)   ;
 }
 
 header{
@@ -14,7 +15,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-inline: 1rem;
-    height: 13rem;
+    height: 10rem;
     background-color: rgb(0, 0, 0);
     
 }
@@ -38,7 +39,7 @@ header a{
 
 header img{
     display: flex;
-    height: 13rem;
+    height: 9rem;
     padding-top: 1rem;
     margin-left: 50px;
 }
@@ -64,6 +65,7 @@ h2{
     max-width: 1900px;
     font-size: 50px;
     margin-bottom: 50px;
+    font-weight: 400;
 }
 
 h2 strong{
